@@ -1,9 +1,8 @@
 import random
-kolmenkoodi = ""
-for i in range(3):
-    kolmenkoodi+= str(random.randint(0, 9))
-neljankoodi = ""
-for i in range(4):
-    neljankoodi += str(random.randint(1, 6))
-print("Kolminumeroinen koodi:", kolmenkoodi)
-print("Nelinumeroinen koodi:", neljankoodi)
+num1 = random.randint(0, 9)
+num2 = random.randint(0,9)
+num3 = random.randint(0,9)
+
+print("numerolukon koodi on:",num1, num2, num3)
+
+
